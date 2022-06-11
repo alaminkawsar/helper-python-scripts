@@ -24,7 +24,7 @@ I have cleaned up slightly, allowed for python3 functionality and some other thi
 
 
 def download_egohands_dataset(dataset_url, dataset_path):
-    print(os.path.join('',''))
+    print(os.path.join('1st','2nd'))
 
 if __name__=="__main__":
 
