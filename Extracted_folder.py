@@ -15,6 +15,7 @@ def extract_folder(dataset_path, source_dir, num_directories=4):
         '''append all of file or folder into 'dirs' list'''
         dirs = [os.path.join(source_dir, dir) for dir in os.listdir(source_dir)]
         random.shuffle(dirs)
+        return True
         
     else:
         print("Files already extracted.")
