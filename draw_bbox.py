@@ -44,14 +44,3 @@ if __name__ == "__main__":
     argv = ['',path,'215','208','42','49','handDetected']
     print (argv)
     main(argv[1], argv[2], argv[3], argv[4], argv[5], argv[6])
-    
-#=======================================
-# HOW TO USAGE THIS FILE
-# ======================================
-#  First make this file executable (only for linux)
-#  $ chmod +x draw_bounding_box_open_cv.py
-#
-#  $ ./draw_bounding_box_open_cv.py <input_image_path> <left> <right> <width> <height> <label>
-#
-# Example :-
-# $ ./draw_bounding_box_open_cv.py "./input.png"  742 232 280 280 "My User"
