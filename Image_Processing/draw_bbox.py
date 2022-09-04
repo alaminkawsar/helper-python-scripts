@@ -40,7 +40,10 @@ def main(imagePath, left, top, width, height, label):
 
 if __name__ == "__main__":
     #argv = sys.argv
-    path = '/home/kawsar/Desktop/Deep Learning/helper-python-scripts/000000000036.jpg'
-    argv = ['',path,'215','208','42','49','handDetected']
+    path = '/home/kawsar/Desktop/Deep Learning/helper-python-scripts/Image_Processing/images/000204_005.jpg'
+    xmin, xmax, ymin, ymax = 71,87,89,109
+    
+    #xmin,ymin,width,height
+    argv = ['',path,xmin,ymin,xmax-xmin,ymax-ymin,'handDetected']
     print (argv)
     main(argv[1], argv[2], argv[3], argv[4], argv[5], argv[6])
